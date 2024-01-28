@@ -142,7 +142,6 @@
                                         <script>
                                             var ctx = document.getElementById('myChart').getContext('2d');
                                             var data = <?php echo $json_data; ?>;
-
                                             var myChart = new Chart(ctx, {
                                                 type: 'bar',
                                                 data: {
